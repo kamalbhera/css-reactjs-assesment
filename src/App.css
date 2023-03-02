@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+  .box {
+    width: 10rem;
+    height: 10rem;
+    background-color: red;
+  }
+  .one {
+    justify-self: flex-start;
+    align-self: flex-start;
+  }
+  .two {
+    justify-self: center;
+    align-self: center;
+  }
+  .three {
+    justify-self: flex-end;
+    align-self: flex-end;
+  }
